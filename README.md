@@ -1,29 +1,63 @@
-# Welcome to your Lovable project
+# Harshit Arora — Portfolio Website
 
-This project was built with [Lovable](https://lovable.dev).
+A modern, fast, and responsive portfolio website showcasing the skills, experience, and projects of **Harshit Arora** (Full Stack Software Engineer).
 
-## Build with Lovable
+## 🚀 Built With
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+- **Framework:** [TanStack Start](https://tanstack.com/start) + [React 19](https://react.dev)
+- **Language:** [TypeScript](https://www.typescriptlang.org/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **UI Components:** [Radix UI](https://www.radix-ui.com/)
+- **Routing:** [TanStack Router](https://tanstack.com/router)
+- **Deployment:** [Vercel](https://vercel.com)
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+## ✨ Features
 
-## Development
+- **Responsive & Modern Design:** Clean aesthetics, subtle animations, and mobile-first layout.
+- **Section Overview:**
+  - **About:** Background and technical experience.
+  - **Skills:** Categorized technical stack (Languages, Frontend, Backend & Database, Tools).
+  - **Experience:** Professional journey and responsibilities.
+  - **Projects:** Featured applications and architectural achievements.
+  - **Education & Contact:** Credentials and easy ways to get in touch.
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+## 🛠️ Local Development
 
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v18+ or v20+)
+- npm or bun
+
+### Setup
+
+```bash
+# Clone the repository
+git clone <your-repo-url>
+cd <repo-folder>
+
+# Install dependencies
+npm install
+
+# Start local development server
 npm run dev
 ```
 
-## Built with
+Visit [http://localhost:3000](http://localhost:3000) (or the port indicated in your console) to view the site.
 
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
+## 📦 Production Build
+
+```bash
+# Build for production
+npm run build
+
+# Preview production build locally
+npm run preview
+```
+
+## 🌐 Deployment on Vercel
+
+This repository is configured for easy deployment on **Vercel**:
+
+1. Push your repository to GitHub / GitLab / Bitbucket.
+2. Import the project into [Vercel](https://vercel.com/new).
+3. Vercel automatically detects the framework settings via `vercel.json` and builds the project.

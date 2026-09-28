@@ -1,5 +1,6 @@
 {
-  "name": "tanstack_start_ts",
+  "name": "harshit-arora-portfolio",
+  "description": "Portfolio website of Harshit Arora — Full Stack Software Engineer",
   "private": true,
   "sideEffects": false,
   "type": "module",
